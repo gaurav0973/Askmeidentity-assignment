@@ -129,6 +129,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+AUTH_USER_MODEL = "store.User"
 
 # JWT Settings
 SIMPLE_JWT = {
